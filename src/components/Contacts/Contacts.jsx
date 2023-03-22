@@ -6,8 +6,10 @@ import { FormAddContact } from './FormAddConatact/FormAddContact';
 import { PhonebookList } from './ContactBookList/ContactBookList';
 import { Container, Input } from './ConatactsStyles';
 import { useSelector, useDispatch } from 'react-redux';
-import { addContact, removeContact, setFilter } from 'redux/actions';
+import { setFilter } from 'redux/filterSlise';
+
 import { getFilterContacts } from 'redux/selector';
+import { addContact, removeContact } from 'redux/contactsSlise';
 // import toast, { Toaster } from 'react-hot-toast';
 
 export const Contacts = () => {
