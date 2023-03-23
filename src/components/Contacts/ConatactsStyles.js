@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   padding: 15px;
+  /* width: 350px; */
+  margin: 0 auto;
 `;
 
 export const Input = styled.input`
